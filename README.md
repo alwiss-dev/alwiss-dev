@@ -35,7 +35,7 @@ I enjoy building **real-world systems** that are meant to run, scale, and surviv
 - Data consistency and performance tuning
 
 ### 🖥️ Infrastructure & Server Management
-- Linux server administration
+- Windows server administration
 - Reverse proxies (Nginx, Cloudflare setups)
 - Docker & container-based deployments
 - Basic CI/CD pipelines
