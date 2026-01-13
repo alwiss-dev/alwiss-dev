@@ -1,34 +1,70 @@
 ## 👋 Hi, I'm Mert
 
-I'm a software-focused builder interested in **backend systems, scalable architectures, and product-oriented development**.  
-I enjoy designing systems that are **performant, maintainable, and realistic to run in production** — not just demos.
+I'm a **software developer and system-oriented builder** focused on designing **custom architectures, scalable backends, and long-term maintainable products**.  
+Rather than following trends blindly, I prefer **understanding how systems work end-to-end** — from server management to application logic and user experience.
 
-### 🧠 What I work with
-- **Languages:** JavaScript (Node.js), TypeScript, Rust (learning & tooling)
-- **Backend:** REST APIs, WebSockets, Microservices
-- **Frontend:** React-based UIs
-- **Databases:** Redis, SQL-based systems
-- **Infrastructure:** Linux servers, Docker, reverse proxies
-- **Focus areas:** Performance, security, scalability, clean architecture
+I enjoy building **real-world systems** that are meant to run, scale, and survive in production environments.
 
-I care deeply about **long-term sustainability**, developer experience, and building products that can actually grow.
+---
+
+## 🧠 Technical Skills & Experience
+
+### 💻 Programming Languages
+- **C# / .NET** – backend systems, APIs, background services
+- **JavaScript (Node.js)** – real-time services, APIs, tooling
+- **TypeScript** – safer large-scale application development
+- **Python** – scripting, automation, backend utilities
+- **Rust** – performance-critical tools, workers, and side services
+
+### ⚙️ Backend & Architecture
+- Custom backend architectures (monolith → modular → microservices)
+- RESTful APIs & WebSocket-based real-time communication
+- Authentication systems (JWT, refresh tokens, session handling)
+- Rate limiting, access control, and security-focused design
+- Cache-first data strategies using Redis
+- Event-driven and message-based system design
+
+### 🎨 Frontend
+- **React / React.js** – modern, component-based UI development
+- State management and API-driven UI architectures
+- Performance-focused frontend structure
+
+### 🗄️ Databases & Caching
+- Redis (caching, pub/sub, real-time data)
+- SQL-based databases (schema design, optimization)
+- Data consistency and performance tuning
+
+### 🖥️ Infrastructure & Server Management
+- Linux server administration
+- Reverse proxies (Nginx, Cloudflare setups)
+- Docker & container-based deployments
+- Basic CI/CD pipelines
+- Monitoring, logging, and production debugging
+- Performance optimization at system level
+
+### 🧩 Engineering Mindset
+- Clean and readable code over quick hacks
+- Systems designed for growth, not just MVPs
+- Strong focus on maintainability and observability
+- Preference for simple, controllable solutions over complex abstractions
 
 ---
 
 ## 🚀 Fling
 
-**Fling** is a Turkey-focused, modern **real-time chat & community platform** infrastructure.
+**Fling** is a modern **real-time chat & community platform** infrastructure, designed with **custom architecture and performance-first principles**.
 
-It is **not a Discord clone** — the goal is to build a more controllable, customizable, and performance-oriented communication system designed with local needs and long-term operation in mind.
+It is **not a Discord clone**.  
+The goal is to build a more **controllable, customizable, and locally sustainable** communication system — especially suited for Turkey-focused communities and long-term operation.
 
-### Key ideas behind Fling
-- Real-time messaging with WebSocket-based architecture
+**Core ideas behind Fling:**
+- WebSocket-based real-time messaging
 - Modular and extensible backend design
-- Microservice-friendly structure
-- Performance-oriented data flow and caching
-- Security-first approach (tokens, rate limiting, access control)
-- Built to evolve with new services, workers, and tooling
+- Microservice-ready architecture
+- Redis-backed data flow and caching
+- Security-first approach (tokens, rate limiting, permissions)
+- Built to evolve with additional services, workers, and tooling
 
-Fling is under active development and aims to be a **practical, production-ready foundation** rather than an experimental project.
+Fling is under active development and aims to become a **production-ready foundation**, not just a prototype.
 
 ---
