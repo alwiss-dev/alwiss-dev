@@ -1,70 +1,66 @@
-## 👋 Hi, I'm Mert
+## Hi, I'm Mert
 
-I'm a **software developer and system-oriented builder** focused on designing **custom architectures, scalable backends, and long-term maintainable products**.  
-Rather than following trends blindly, I prefer **understanding how systems work end-to-end** — from server management to application logic and user experience.
+I'm a software developer who builds systems focused on creating custom architectures, scalable backends, and maintainable products. Instead of blindly following trends, I like to understand how systems work from start to finish—covering server management, application logic, and user experience.
 
-I enjoy building **real-world systems** that are meant to run, scale, and survive in production environments.
+I enjoy creating real-world systems that are designed to run, scale, and function well in production environments.
 
 ---
 
-## 🧠 Technical Skills & Experience
+## Technical Skills & Experience
 
-### 💻 Programming Languages
+### Programming Languages
 - **C# / .NET** – backend systems, APIs, background services
 - **JavaScript (Node.js)** – real-time services, APIs, tooling
-- **TypeScript** – safer large-scale application development
+- **TypeScript** – safer development for large-scale applications
 - **Python** – scripting, automation, backend utilities
-- **Rust** – performance-critical tools, workers, and side services
+- **Rust** – tools, workers, and side services that focus on performance
 
-### ⚙️ Backend & Architecture
-- Custom backend architectures (monolith → modular → microservices)
-- RESTful APIs & WebSocket-based real-time communication
+### Backend & Architecture
+- Custom backend architectures (monolith, modular, microservices)
+- RESTful APIs and real-time communication via WebSocket
 - Authentication systems (JWT, refresh tokens, session handling)
-- Rate limiting, access control, and security-focused design
+- Rate limiting, access control, and design focused on security
 - Cache-first data strategies using Redis
-- Event-driven and message-based system design
+- Design based on events and message-driven systems
 
-### 🎨 Frontend
-- **React / React.js** – modern, component-based UI development
-- State management and API-driven UI architectures
-- Performance-focused frontend structure
+### Frontend
+- **React / React.js** – modern, component-based user interface development
+- State management and UI architectures driven by APIs
+- Frontend structure focused on performance
 
-### 🗄️ Databases & Caching
+### Databases & Caching
 - Redis (caching, pub/sub, real-time data)
 - SQL-based databases (schema design, optimization)
 - Data consistency and performance tuning
 
-### 🖥️ Infrastructure & Server Management
+### Infrastructure & Server Management
 - Windows server administration
 - Reverse proxies (Nginx, Cloudflare setups)
-- Docker & container-based deployments
+- Docker and container-based deployments
 - Basic CI/CD pipelines
-- Monitoring, logging, and production debugging
-- Performance optimization at system level
+- Monitoring, logging, and debugging in production
+- Performance optimization at the system level
 
-### 🧩 Engineering Mindset
-- Clean and readable code over quick hacks
-- Systems designed for growth, not just MVPs
-- Strong focus on maintainability and observability
-- Preference for simple, controllable solutions over complex abstractions
+### Engineering Mindset
+- Clean and readable code is preferred over quick fixes
+- Systems should be designed for growth, not just MVPs
+- Strong emphasis on maintainability and observability
+- Favor simple, controllable solutions instead of complex ones
 
 ---
 
-## 🚀 Fling
+## Fling
 
-**Fling** is a modern **real-time chat & community platform** infrastructure, designed with **custom architecture and performance-first principles**.
+**Fling** is a modern real-time chat and community platform infrastructure built on custom architecture and performance-first principles.
 
-It is **not a Discord clone**.  
-The goal is to build a more **controllable, customizable, and locally sustainable** communication system — especially suited for Turkey-focused communities and long-term operation.
+It is not a Discord clone. The aim is to create a more controllable, customizable, and sustainable communication system, especially for communities focused on Turkey and long-term operation.
 
 **Core ideas behind Fling:**
 - WebSocket-based real-time messaging
 - Modular and extensible backend design
-- Microservice-ready architecture
-- Redis-backed data flow and caching
+- Architecture ready for microservices
+- Data flow and caching supported by Redis
 - Security-first approach (tokens, rate limiting, permissions)
-- Built to evolve with additional services, workers, and tooling
+- Built to grow with additional services, workers, and tools
 
-Fling is under active development and aims to become a **production-ready foundation**, not just a prototype.
-
----
+Fling is actively being developed and aims to be a production-ready foundation, not just a prototype.
