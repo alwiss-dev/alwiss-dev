@@ -1,66 +1,89 @@
-## Hi, I'm Mert
+Hi, I’m Mert.
 
-I'm a software developer who builds systems focused on creating custom architectures, scalable backends, and maintainable products. Instead of blindly following trends, I like to understand how systems work from start to finish—covering server management, application logic, and user experience.
+Software I create serves practical purposes. What matters most? Systems stay stable even when stretched. Clarity sticks around, even during high stress. Performance holds up, despite shifting needs. Not interested in fads - watching behavior comes first. Once deployed, how do servers handle heavy traffic? How does code age across months of use? User actions reveal patterns no design document predicts.
 
-I enjoy creating real-world systems that are designed to run, scale, and function well in production environments.
+A steady system beats a flashy one every time. Building things that grow smoothly comes first, so I focus on designs ready for heavier loads without breaking down later. Real-world testing shapes better outcomes compared to theories never challenged outside documents. What survives busy hours online proves its worth far beyond initial sketches.
 
 ---
 
-## Technical Skills & Experience
+Technical Skills and Experience
 
-### Programming Languages
-- **C# / .NET** – backend systems, APIs, background services
-- **JavaScript (Node.js)** – real-time services, APIs, tooling
-- **TypeScript** – safer development for large-scale applications
-- **Python** – scripting, automation, backend utilities
-- **Rust** – tools, workers, and side services that focus on performance
+Programming Languages
 
-### Backend & Architecture
-- Custom backend architectures (monolith, modular, microservices)
-- RESTful APIs and real-time communication via WebSocket
-- Authentication systems (JWT, refresh tokens, session handling)
-- Rate limiting, access control, and design focused on security
-- Cache-first data strategies using Redis
-- Design based on events and message-driven systems
+C# / .NET
+Behind most server-side parts in .NET, C# stands as the main tool. Whether it is an API or a service running quietly in the background, tasks continue without needing someone to trigger them. Events tend to set things in motion - responses follow when signals arrive, not because of immediate demands. Smooth links to other components make sure everything fits together without friction.
 
-### Frontend
-- **React / React.js** – modern, component-based user interface development
-- State management and UI architectures driven by APIs
-- Frontend structure focused on performance
+JavaScript (Node.js)
+Because Node.js handles live data efficiently, it powers applications needing immediate feedback. Tools built on this runtime often manage chats or alerts without delay. Sometimes a minimal service benefits simply from its speed. Live interactions tend to run smoothly when structured around non-blocking operations.
 
-### Databases & Caching
-- Redis (caching, pub/sub, real-time data)
-- SQL-based databases (schema design, optimization)
-- Data consistency and performance tuning
+TypeScript
+With TypeScript, bigger JavaScript projects gain clarity through added constraints. Errors often show up early - during compilation - not later when the app runs. This shift means fewer surprises down the line. As code expands, keeping it manageable becomes less of a burden. The tool fits well where systems evolve steadily over months or years.
 
-### Infrastructure & Server Management
-- Windows server administration
-- Reverse proxies (Nginx, Cloudflare setups)
+Python
+Scripting tasks take up most of its role, often handling repetitive processes behind the scenes. While built mainly for automation, it quietly strengthens how internal systems communicate. Behind operational routines, this tool runs unseen yet stays essential. Instead of front-facing functions, it focuses on keeping backend operations steady and reliable.
+
+Rust
+Where speed and tight resource handling matter most, Rust becomes a natural fit. For tasks like running background jobs or building low-level utilities, it delivers steady results without extra cost. Predictable behavior under pressure makes it suitable in environments demanding efficiency. System tools often rely on its precision when every cycle counts.
+
+---
+
+Backend and Architecture
+
+Building backend setups comes naturally - from tidy monolithic designs to split-up structures ready for microservices. Each time, the aim stays sharp: clear flow, room to grow, steady handling.
+
+RESTful APIs with WebSocket Real-Time Communication
+- Authentication systems using JWT, refresh tokens, and session handling
+Security begins with design choices that limit exposure. Access depends on assigned roles, shaping who can do what. Requests get restricted over time to prevent overload. Each layer adds protection by narrowing possibilities
+Using Redis with cache first approaches
+- Event-driven and message-based system design
+
+---
+
+Frontend
+
+- React / React.js for modern, component-based user interfaces
+- API-driven state management
+- Frontend architecture designed with performance and maintainability in mind
+
+---
+
+Databases and Caching
+
+- Redis for caching, pub/sub messaging, and real-time data handling
+A well-thought-out structure matters when building databases rooted in SQL. Optimization emerges naturally from intentional planning, not just added later. Design choices shape performance more than raw power ever could
+- Focus on data consistency and performance tuning
+
+---
+
+Managing Servers and Infrastructure
+
+Windows server management
+Reverse Proxy with Nginx and Cloudflare
 - Docker and container-based deployments
-- Basic CI/CD pipelines
-- Monitoring, logging, and debugging in production
-- Performance optimization at the system level
-
-### Engineering Mindset
-- Clean and readable code is preferred over quick fixes
-- Systems should be designed for growth, not just MVPs
-- Strong emphasis on maintainability and observability
-- Favor simple, controllable solutions instead of complex ones
+- Basic CI/CD pipelines for testing and deployment
+- Production monitoring, logging, and debugging
+- System-level performance optimization
 
 ---
 
-## Fling
+Engineering Mindset
 
-**Fling** is a modern real-time chat and community platform infrastructure built on custom architecture and performance-first principles.
+Starting with clarity means skipping shortcuts that clutter code. Growing a system matters more than rushing it live. From day one, keeping things maintainable shapes how tools get built. Simplicity wins when control beats cleverness, particularly over time.
 
-It is not a Discord clone. The aim is to create a more controllable, customizable, and sustainable communication system, especially for communities focused on Turkey and long-term operation.
+---
 
-**Core ideas behind Fling:**
+Fling
+
+Fling operates using a tailored system meant for speed, supporting instant chats and group interactions. Because needs shift over time, its structure adjusts without disrupting live conversations. Smooth messaging stays consistent even when demands evolve. Reliability remains central as conditions change around it.
+
+Fling stands apart from Discord. Its purpose? Building a tool people can shape themselves - flexible, guided by users, built to last. Centered especially on Turkish communities, it aims to run steadily far into the future.
+
+Fling Core Ideas
+
 - WebSocket-based real-time messaging
-- Modular and extensible backend design
-- Architecture ready for microservices
-- Data flow and caching supported by Redis
-- Security-first approach (tokens, rate limiting, permissions)
-- Built to grow with additional services, workers, and tools
+- Modular and extensible backend architecture
+- Microservice-ready system design
+A system using Redis handles data movement while supporting quick access through temporary storage
+- Security-first design using tokens, rate limiting, and permission systems
 
-Fling is actively being developed and aims to be a production-ready foundation, not just a prototype.
+Fling begins modestly, yet expands gradually - introducing features, team members, tools - all without disrupting live operations. Progress continues step by step, shaping something durable instead of rushing toward temporary results.
